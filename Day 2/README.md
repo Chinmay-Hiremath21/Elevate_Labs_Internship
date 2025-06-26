@@ -1,3 +1,5 @@
+Link for the dataset: https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-prediction-dataset?select=House_Rent_Dataset.csv <br>
+
 Step 1: Generates summary statistics like mean, median, and standard deviation.<br>
 
 Step 2: Creates histograms to show the distribution of numerical features like Rent, Size, Floor, and Bathroom.<br>
