@@ -1,0 +1,14 @@
+** What this script does (Heart Disease Prediction using Decision Tree and Random Forest)**<br><br>
+- Step 1: Loads the cleaned heart disease dataset from `cleaned_heart.csv`.<br>
+- Step 2: Converts the `target` column to integer type for classification.<br>
+- Step 3: Separates the dataset into features (`X`) and target label (`y`).<br>
+- Step 4: Splits the data into training and testing sets using an 80-20 ratio.<br>
+- Step 5: Trains a Decision Tree classifier with a maximum depth of 4 using Scikit-learn.<br>
+- Step 6: Visualizes the trained Decision Tree using `plot_tree` from Matplotlib.<br>
+- Step 7: Makes predictions on the test set using the Decision Tree model.<br>
+- Step 8: Evaluates the Decision Tree model using accuracy score and classification report.<br>
+- Step 9: Trains a Random Forest classifier with 100 trees using Scikit-learn.<br>
+- Step 10: Makes predictions on the test set using the Random Forest model.<br>
+- Step 11: Evaluates the Random Forest model using accuracy score and classification report.<br>
+- Step 12: Extracts feature importances from the Random Forest model and visualizes them using a bar chart.<br>
+- Step 13: Performs 5-fold cross-validation for both Decision Tree and Random Forest models and prints average accuracy scores.<br>
